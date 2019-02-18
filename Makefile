@@ -1,6 +1,6 @@
 CHART_REPO := http://jenkins-x-chartmuseum:8080
 DIR := "env"
-NAMESPACE := "change-me"
+NAMESPACE := "env-dasliph-jx-test-v2"
 OS := $(shell uname)
 
 build: clean
